@@ -26,5 +26,8 @@ RUN sudo apt install -y git
 # Rosdep update
 RUN rosdep update
 
+# Install Gazebo ROS packages and Xacro
+RUN sudo apt install -y ros-foxy-gazebo-ros-pkgs ros-foxy-xacro
+
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
