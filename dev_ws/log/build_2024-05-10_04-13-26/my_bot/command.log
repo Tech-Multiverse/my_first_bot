@@ -1,4 +1,0 @@
-Invoking command in '/my_first_bot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /my_first_bot/dev_ws/build/my_bot -- -j16 -l16
-Invoked command in '/my_first_bot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /my_first_bot/dev_ws/build/my_bot -- -j16 -l16
-Invoking command in '/my_first_bot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /my_first_bot/dev_ws/build/my_bot
-Invoked command in '/my_first_bot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /my_first_bot/dev_ws/build/my_bot
