@@ -1,6 +1,6 @@
 ## Robot Package Template
 
-This repo is based on <a href="https://github.com/joshnewans/my_bot">joshnewans my_bot template</a>.
+This is based on <a href="https://github.com/joshnewans/my_bot">joshnewans my_bot template</a>.
 
 It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
 
