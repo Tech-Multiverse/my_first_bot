@@ -1,0 +1,6 @@
+Invoking command in '/my_first_bot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_first_bot/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_first_bot/dev_ws/install/my_bot
+Invoked command in '/my_first_bot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_first_bot/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_first_bot/dev_ws/install/my_bot
+Invoking command in '/my_first_bot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_first_bot/dev_ws/build/my_bot -- -j16 -l16
+Invoked command in '/my_first_bot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_first_bot/dev_ws/build/my_bot -- -j16 -l16
+Invoking command in '/my_first_bot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_first_bot/dev_ws/build/my_bot
+Invoked command in '/my_first_bot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_first_bot/dev_ws/build/my_bot
