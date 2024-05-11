@@ -6,9 +6,7 @@ Learn more about this project at https://tech-multiverse.com/projects/learning-h
 
 - In VS Code, with the Dev Container extention installed, click the blue button in the lower left and choose "reopen with container". 
 
-- Once the container build finishes, open a terminal and source the bash file with `source /dev_ws/install/setup.bash`.
-
-- Navigate to dev_ws. 
+- Once the container build finishes, open a terminal and initialize and update the submodule with `git submodule update --init --recursive`.
 
 - Launch the project and open the Gazebo simulator with `ros2 launch my_bot launch_sim.launch.py`
 
