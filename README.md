@@ -48,6 +48,6 @@ After cloning this repo, and following the directions below, you will have:
   
 - Open a third teminal and start the transform log with `ros2 topic echo /tf`
 
-- Open a fourth terminal and lauch the contros with `ros2 run teleop_twist_keyboard teleop_twist_keyboard`.
+- Open a fourth terminal and lauch the controls with `ros2 run teleop_twist_keyboard teleop_twist_keyboard`.
 
 - Use the "u" and "o" keys to have the robot do circles, otherwise it's easy to lose track of it visually.
