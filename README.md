@@ -16,6 +16,7 @@ The result is a containerized robot simulation starter template to kick-off furt
 After cloning this repo, and following the directions below, you will have:
 - Gazebo Simulation with a starter bot spawned and ready for commands.
 - RViz robot visualizer representing the state of the robot, and each component, in relation to the "world".
+- An example ROS package called "my_bot".
 - An example URDF (XML) description of the "box bot" from the project.
 - The ability to control your robot with terminal commands:
   - i = forward
