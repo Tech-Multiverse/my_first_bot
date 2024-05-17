@@ -2,9 +2,11 @@
 
 Learn more about this project at https://tech-multiverse.com/projects/learning-how-to-simulate-robots-with-ros2/
 
+
+
 **Follow these steps to get everything up and running:**
 
-- In VS Code, with the Dev Container extention installed, click the blue button in the lower left and choose "reopen with container". 
+- In VS Code, with the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers" target="_blank"> Dev Containers extention</a> installed, click the blue button in the lower left and choose "reopen with container". 
 
 - Once the container build finishes, open a terminal and navigate to "dev_ws" folder and build the my_bot packge with `colcon build --symlink-install`
 
