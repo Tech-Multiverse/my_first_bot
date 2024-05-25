@@ -1,5 +1,10 @@
 FROM osrf/ros:foxy-desktop
 
+# Set the display host
+# You may need to make sure xhost is running locally if you find the GUIs don't load.
+# I have to run "C:\Program Files\VcXsrv\xlaunch.exe" with access control disabled for everything to work.
+ENV DISPLAY=host.docker.internal:0.0
+
 # Add vscode user with same UID and GID as your host system
 # (copied from https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user#_creating-a-nonroot-user)
 ARG USERNAME=vscode
