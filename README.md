@@ -52,3 +52,17 @@ After cloning this repo, and following the directions below, you will have:
 - Open a fourth terminal and lauch the controls with `ros2 run teleop_twist_keyboard teleop_twist_keyboard`.
 
 - Use the "u" and "o" keys to have the robot do circles, otherwise it's easy to lose track of it visually.
+
+## Troubleshooting GUIs not running
+Josh mentions the need to configure XHOST in his <a href="https://youtu.be/dihfA7Ol6Mw?si=zgaU7BsfSOhUVXmX">video about dev containers</a>.
+My original setup used WSL2 with Ubuntu.  At that time, I dind't have any issues when I walked through the steps of setting up Foxy and running GUI apps like RVIZ.
+However, I was tired of WSL taking up so much space.  When I delted that, I was not able to run RVIZ anymore.
+XHOST is the key!!
+
+Linux usually has this built in, but I blew that out when cleaning house.
+Now, I have to make sure XcXsrv is running locally before running RVIZ.
+I've added `ENV DISPLAY=host.docker.internal:0.0` to the Dockerfile since it helps connect to XcXsrv once it's running.
+I personally have to run "C:\Program Files\VcXsrv\xlaunch.exe" with access control disabled for everything to work.
+You may need to take a different route, depending on your system.
+
+Hopefully that saves someone from having to fight with that for several hours - like I did! 🙃
