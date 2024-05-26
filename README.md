@@ -60,7 +60,8 @@ However, I was tired of WSL taking up so much space.  When I deleted that, I was
 XHOST is the key!!
 
 Linux usually has XHOST built in, but I blew that away when cleaning my drive.
-Now, I have to make sure XcXsrv is running locally before running RVIZ.
+Now, I have to make sure XcXsrv is running locally before running RVIZ.    
+
 I've added `ENV DISPLAY=host.docker.internal:0.0` to the Dockerfile since it helps connect to XcXsrv once it's running.
 I first have to run "C:\Program Files\VcXsrv\xlaunch.exe" with **access control disabled** for everything to work.
 You may need to take a different route, depending on your system.
