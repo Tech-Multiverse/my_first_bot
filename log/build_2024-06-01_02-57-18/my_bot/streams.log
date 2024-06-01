@@ -1,0 +1,56 @@
+[0.080s] Invoking command in '/my_first_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_first_bot/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_first_bot/install/my_bot
+[0.571s] -- The C compiler identification is GNU 9.4.0
+[0.842s] -- The CXX compiler identification is GNU 9.4.0
+[0.901s] -- Check for working C compiler: /usr/bin/cc
+[1.356s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.364s] -- Detecting C compiler ABI info
+[1.858s] -- Detecting C compiler ABI info - done
+[1.879s] -- Detecting C compile features
+[1.880s] -- Detecting C compile features - done
+[1.927s] -- Check for working CXX compiler: /usr/bin/c++
+[2.312s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.318s] -- Detecting CXX compiler ABI info
+[2.739s] -- Detecting CXX compiler ABI info - done
+[2.773s] -- Detecting CXX compile features
+[2.774s] -- Detecting CXX compile features - done
+[2.831s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.857s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.857s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.041s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.178s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.632s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.031s] -- Added test 'lint_cmake' to check CMake code style
+[5.727s] -- Added test 'xmllint' to check XML markup files
+[5.858s] -- Configuring done
+[6.029s] -- Generating done
+[6.091s] -- Build files have been written to: /my_first_bot/build/my_bot
+[6.095s] Invoked command in '/my_first_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /my_first_bot/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/my_first_bot/install/my_bot
+[6.106s] Invoking command in '/my_first_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_first_bot/build/my_bot -- -j16 -l16
+[6.204s] Invoked command in '/my_first_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /my_first_bot/build/my_bot -- -j16 -l16
+[6.251s] Invoking command in '/my_first_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_first_bot/build/my_bot
+[6.266s] -- Install configuration: ""
+[6.271s] -- Execute custom install script
+[6.293s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/config/controllers.yaml
+[6.354s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[6.388s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[6.425s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[6.463s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/description/robot_description.urdf.xacro
+[6.512s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/launch/controller_spawner.launch
+[6.543s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/launch/robot_simulation.launch
+[6.597s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/worlds/empty.world
+[6.646s] -- Symlinking: /my_first_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[6.702s] -- Symlinking: /my_first_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[6.754s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[6.793s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[6.827s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/environment/path.sh
+[6.860s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/environment/path.dsv
+[6.890s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/local_setup.bash
+[6.931s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/local_setup.sh
+[6.961s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/local_setup.zsh
+[6.997s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/local_setup.dsv
+[7.024s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/package.dsv
+[7.071s] -- Symlinking: /my_first_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[7.115s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[7.159s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[7.207s] -- Symlinking: /my_first_bot/install/my_bot/share/my_bot/package.xml
+[7.232s] Invoked command in '/my_first_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /my_first_bot/build/my_bot

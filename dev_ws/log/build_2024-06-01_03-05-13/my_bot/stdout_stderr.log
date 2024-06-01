@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /my_first_bot/dev_ws/build/my_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/config/controllers.yaml
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/description/robot_description.urdf.xacro
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/launch/controller_spawner.launch
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/launch/robot_simulation.launch
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/package.dsv
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+-- Symlinking: /my_first_bot/dev_ws/install/my_bot/share/my_bot/package.xml
